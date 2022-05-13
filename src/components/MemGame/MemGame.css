@@ -1,0 +1,65 @@
+.containerr {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    margin-left: 2rem;
+    bottom: 0;
+    ruby-align: center;
+}
+
+.containerr buttonn {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    width: 7rem;
+    height: 3rem;
+    font-family: monospace;
+    font-size: 1rem;
+    padding-top: 2cm;
+    margin-top: 2em;
+}
+
+.containerr buttonn:hover {
+    filter: brightness(0.7);
+    cursor: pointer;
+}
+
+.p memPara {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    font-family: monospace;
+    font-size: 1.5rem;
+    background-color: black;
+    border: 2px solid white;
+    width: 10rem;
+    height: 4rem;
+}
+
+ .gridd {
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    height: auto;
+    padding: auto;
+    width: auto;
+    overflow: hidden;
+    object-fit: contain;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    /* margin-left: 5em; */
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+    padding: auto;
+}
+
+.gridd div img {
+    width: 50%;
+}
